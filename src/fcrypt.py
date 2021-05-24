@@ -8,7 +8,7 @@ class Crypter:
             with open("secret.key", "wb") as f:
                 f.write(self.key)
         else:
-            with open(key_path, "wb") as f:
+            with open(key_path, "rb") as f:
                 self.key = f.read()
         self.fcrypt = Fernet(self.key)
 
