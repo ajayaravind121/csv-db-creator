@@ -23,9 +23,11 @@ csv2DB is an python module which creates database tables from a csv file.
 ```
 
 ## Sample Output
-[Sample CSV Input]() 
+[Sample CSV Input](https://github.com/ajayaravind121/csv2db/blob/main/src/test/sample.csv) 
 
 ```
+>>> python main.py
+
 Writing CSV to DB(sqllite3)
 Storing CSV Records to DB....
 Passwords Found. Encrypting Passwords
